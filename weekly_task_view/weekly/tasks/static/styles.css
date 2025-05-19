@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.day-list {
+    list-style: none;
+    padding: 0;
+}
+
+.day-list li {
+    margin: 10px 0;
+}
+
+.day-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #0077cc;
+}
+
+.day-list a:hover {
+    color: #005999;
+}
+
+.task {
+    font-size: 20px;
+    color: #444;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0077cc;
+    text-decoration: none;
+}

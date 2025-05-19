@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly Task View</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weekly Task View</h1>
+        <ul class="day-list">
+            {% for day in days %}
+                <li><a href="/task/{{ day|lower }}/">{{ day }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
